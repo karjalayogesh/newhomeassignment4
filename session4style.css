@@ -1,0 +1,209 @@
+body{
+    background-color: white;
+}
+.container{
+    width: 750px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*header sectinon*/
+header{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /*box shadow as 4 values yaxixs x-axis spreadcolor*/
+    box-shadow: 5px 2px 5px rgb(102, 99, 99);
+}
+.header_logo{
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.header_nap{
+    width: 280px;
+    margin-left: 40px;
+}
+.header_nap a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-size: 15px;
+}
+/*to change the color when pointer moves on to the word*/
+.header_nap a:hover{
+    color: red;
+}
+.header_button a{
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 15px;
+    border-radius: 10px;/*to getcircle shape for bozx like strutue*/
+    /*background-color: blue;to get box like structure */
+}
+.header_button_1{
+    color: rgb(211, 208, 200);
+}
+/* to get box on the word when place the pointer*/
+.header_button_1:hover{
+    color: rgba(18, 58, 17, 0);
+    background-color: rgb(100, 146, 136);
+}
+.header_button_2{
+background-color: blue;
+color: white;
+}
+.header_button_2:hover{
+    background-color: aqua;
+}
+
+.title{
+    margin-top: 20px;
+}
+.title_1{
+    width: 40%;
+    padding: 10px;
+}
+.title_2{
+    width: 50%;
+}
+.title_2 video{
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+/* support */
+.support{
+    background-color: grey;
+    margin-top: 50px;
+    border-bottom: 2px solid rgb(204, 204, 204);
+    border-top: 2px solid rgb(204, 204, 204);
+
+}
+.box1{
+    width: 26%;
+    padding: 20px;
+}
+.box1 h3{
+    font-size: 20px;
+    font-weight: 200;
+}
+.box1 p{
+    font-size: 10px;
+}
+/* div means boxes*/
+.underline{
+    width: 15px;
+    height: 2px;
+    background-color: red;
+    border-radius: 10px;/*to remove sharpedges*/
+}
+.boxborder{
+    border-left: 2px solid rgb(138, 31, 31);
+    border-right: 2px solid rgb(146, 15, 15);
+}
+/*features section*/
+.features{
+    margin-top: 40px;
+
+}
+.features_img{
+    width: 30%;
+    padding-left: 230px;
+}
+.features_img img{
+    width: 80%;
+    margin-left: 30px;
+}
+.features_content h2{
+    width: 300px;
+    margin-left: 270px;
+    margin-top: 10px;
+}
+.features_content p{
+    width: 600px;
+    margin-left: 70px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: gray;
+}
+.features_button{
+      width: 30%;
+      border-bottom: 2px solid grey;
+      text-align: center;/*to get the sentences at the center*/
+}
+.features_button a{
+    text-decoration: none;
+    
+    
+}
+.features_button:hover{
+    border-bottom: 2px solid blue;
+}
+.feature_text1{
+    width: 40%;
+    padding: 10px;
+}
+.feature_text1{
+    margin-top: 50px;
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+}
+.feature_video {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.feature_video video{
+    width: 80%;
+}
+.account_content{
+    margin-left: 250px;
+    text-align: center;
+}
+.account_content h2{
+    margin-left: 25px;
+}
+.account_content a{
+    display: block;
+    text-decoration: none;
+    padding: 15px 25px;
+    margin-left: 40px;
+    text-align: center;/*t0 get the center to the content*/
+}
+.yogi:hover{
+    background-color: darkblue;
+    border-radius: 10px;
+    width: 60%;
+}
+/* footer class*/
+
+.footer{
+    padding: 30px 15px;
+    margin-top: 30px;
+    background-color: azure;
+}
+.footer_nap{
+    padding: 23px 10px;
+    margin-left: 30px;
+}
+.footer_nap a{
+    text-decoration: none;
+    color: rgb(32, 70, 102);
+    font-size: 15px;
+    margin: 2px 10px;
+}
+.footer_nap a:hover{
+    color: black;
+}
+.footer_help{
+    width: 25%;
+    padding: 20px 10px;
+    margin-left: 5  0px;
+}
